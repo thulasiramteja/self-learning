@@ -130,6 +130,7 @@ body{
             }
             .two a{
                 margin-right:1em;
+                font-size:100%;
             }
             .info .co{
                 margin-bottom:6%;
@@ -154,6 +155,5 @@ body{
             text-decoration:none;
             color:purple;
             font-weight:bold;
-            font-size:8%;
             }
 
