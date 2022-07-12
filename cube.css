@@ -1,0 +1,62 @@
+body{
+    background-color:black;
+    color:lime;
+    padding:50px;
+}
+.scene{
+    width:200px;
+    height:200px;
+    perspective:1000px;
+    margin:30%;
+}
+.cube{
+    width:100%;
+    height:100%;
+    position:relative;
+    transform-style:preserve-3D;
+    animation:animate 10s linear infinite;
+                
+    }
+@keyframes animate{
+                0%{
+                    transform:rotateX(-30deg) rotateY(0deg);
+                }
+                100%{
+                    transform:rotateX(-30deg) rotateY(360deg);
+                }
+            }
+    
+    
+    
+.cube div{
+    width:200px;
+    height:200px;
+    position:absolute;
+    box-sizing:border-box;
+    padding-top:100px;
+    text-align:center;
+}
+.top{
+    background-color:rgba(0,0,225,0.3);
+    transform:rotateX(90deg) translateZ(100px);
+}
+.bottom{
+    background-color:rgba(0,0,225,0.3);
+    transform:rotateX(-90deg) translateZ(100px);
+}
+.left{
+    background-color:rgba(225,0,0,0.3);
+    transform:rotateY(-90deg) translateZ(100px);
+}
+.right{
+    background-color:rgba(225,0,0,0.3);
+    transform:rotateY(90deg) translateZ(100px);
+}
+.front{
+    background-color:rgba(10,225,200,0.3);
+    transform:rotateY(0deg) translateZ(100px) ;
+}
+.back{
+    background-color:rgba(10,225,200,0.3);
+    transform:rotateY(180deg) translateZ(100px);
+}
