@@ -1,0 +1,153 @@
+body{
+                padding:0;margin:0;
+                text-transform:capitalize;
+            }
+            .container{
+                background-color:rgba(150,100,300,0.5);
+                margin:-22px 0;
+                max-width:100%;
+                min-height:60rem;
+                padding:2em 1em;
+            }
+            .top span{
+                text-transform:uppercase;
+                margin:0 20px;
+            }
+            #header{
+                text-align:center;
+                padding:10px;
+                min-height:100px;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                flex-wrap:wrap;
+                background-color:rgba(0,100,255,0.4);
+                font-family:monospace;
+                line-height:30px;
+                border-radius:20px;
+            }
+            .card-content{
+                margin:-1em -1em;
+                margin-top:5em;
+                background-color:black;
+                color:lime;
+                min-height:200px;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+            }
+            .cards-area{
+                background-color:black;
+                display:flex;
+                max-width:100%;
+                justify-content:flex-start;
+                overflow:scroll;
+                padding:0.5% 0 5% 0;
+                
+            }
+            .cards-area .card{
+                min-width:100px;
+                min-height:140px;
+                background-color:rgba(10,120,300,0.5);
+                border:1px solid skyblue;
+                margin-right:7%;
+                border-radius:20px;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                text-align:center;
+                color:rgba(320,100,200,0.8);
+                text-decoration:none;
+            }
+            #first{
+                margin-left:7%;
+            }
+            /* top part completed */
+            
+            
+            .spirite{
+                background-color:rgba(10,20,5,0.6);
+                min-height:200px;
+                margin:0 -1em;
+                padding:10%;
+                
+            }
+            .contain{
+                display:flex;
+                flex-direction:column;
+                justify-content:flex-start;
+                align-items:center;
+            }
+            .both{
+                display:flex;
+                flex-direction:column;
+                margin-bottom:15px;
+            }
+            .both strong{
+                align-self:center;
+                text-align:center;
+                margin-top:15px;
+            }
+            .author{
+                display:flex;
+                align-items:flex-end;
+                justify-content:flex-end;
+                font-weight:bolder;
+                font-family:monospace;
+                font-size:20px;
+                min-height:100px;
+            }
+            /* spirite part completed */
+            
+            .info{
+                
+                margin:-10px -1em;
+                background-color:rgba(250,150,200,0.6);
+                min-height:200px;
+                margin-bottom:20%;
+                padding:0 1em;
+                
+                
+            }
+            .info .line{
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                font-family:monospace;
+            }
+            .two{
+                display:flex;
+                align-items:center;
+                min-width:40%;
+                justify-content:space-between;
+                font-size:0.8em;
+                
+            }
+            .info h1{
+                font-size:16px;
+                
+                
+            }
+            .two a{
+                margin-right:1em;
+            }
+            .info .co{
+                margin-bottom:6%;
+                margin-right:2%;
+            }
+            
+            .arrange{
+                margin-top:5%;
+                display:flex;
+                justify-content:space-between;
+                flex-direction:column;
+                align-items:flex-start;
+                padding-bottom:5%;
+                font-family:monospace;
+                font-weight:;
+            }
+            .arrange p{
+                margin:0px;
+            }
+            /* info part completed */
+            

@@ -1,0 +1,33 @@
+            body{
+                margin:0;padding:0;
+                font-family:monospace;
+                background:linear-gradient(rgba(255,155,0,0.4),black);
+                min-height:90em;
+                background-repeat:no-repeat;
+                
+                
+            }
+            .container{
+                background:linear-gradient(blue,rgba(0,100,300,0.3));
+                font-size:40px;
+                padding:30px 20px;
+                margin-top:5em;
+            }
+            #mark{
+                position:absolute;
+                left:0;top:0;
+                background-color:rgba(200,50,100,0.5);
+                padding:10px 20px;
+                border-radius:15px;
+                padding-left:40px;
+                left:-20px;
+                font-weight:bolder;
+                letter-spacing:8px;
+                text-transform:uppercase;
+                box-shadow:15px 15px 10px black;
+            }
+            .describe{
+                text-transform:capitalize;
+                color:rgba(200,300,300,0.8);
+            }
+            
