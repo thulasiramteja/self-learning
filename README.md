@@ -5,6 +5,6 @@
 * now you can see my projects index file in following below link.
 * [ live preview ](https://zemmex.github.io/self-learning)
 ## desired outcomes 
-![outcome](./outcome.png)
+![outcome](./items/outcome.png)
 
 
